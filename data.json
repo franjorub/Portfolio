@@ -1,48 +1,38 @@
 {
-    "name": "Kaustubh Odak",
+    "name": "Francisco Rubial",
     "landing": {
-        "title": "Hi, I'm Kaustubh",
+        "title": "Hi, I'm Francisco Rubial",
         "subtitles": [
-            "Full-stack developer 🌐",
+            "React | React Native Developer 🌐",
             "Cross-platform developer 📱💻",
             "Exploring cloud ☁️",
-            "Beginner in devops ♾️",
             "Just getting started 📈"
         ],
         "professionalDetails": [
             {
-                "alt": "kaustubh-odak",
+                "alt": "francisco-rubial",
                 "icon": "linkedin",
-                "link": "https://www.linkedin.com/in/kaustubh-odak/"
+                "link": "https://www.linkedin.com/in/franjorub/"
             },
+            
             {
-                "alt": "kausko",
-                "icon": "stackoverflow",
-                "link": "https://stackoverflow.com/users/15832433/kausko"
-            },
-            {
-                "alt": "kausko",
+                "alt": "franjorub",
                 "icon": "github",
-                "link": "https://github.com/kausko"
+                "link": "https://github.com/franjorub"
             },
             {
                 "alt": "Email",
                 "icon": "gmail",
-                "link": "mailto:iam@kaustubhodak.me,kaustubhodak1@gmail.com"
+                "link": "mailto:franjorub@gmail.com"
             }
         ]
     },
     "skills": {
         "Languages known": [
-            "JavaScript",
-            "Java",
-            "C++",
-            "Python",
+            "JavaScript", 
             "HTML5",
             "CSS3",
-            "TypeScript",
-            "Kotlin",
-            "Dart"
+            "TypeScript"
         ],
         "Frontend": [
             "React",
@@ -75,21 +65,13 @@
                 "icon": "react",
                 "backgroundColor": "#424242"
             },
-            "Expo",
-            "Android",
-            "Flutter"
+            "Expo"
+            
         ]
     },
     "projects": {
-        "baseURI": "https://api.github.com/repos/kausko/",
-        "repositories": [
-            "Genrealize",
-            "Portfolio",
-            "cosmicom",
-            "Discord-Google-Drive-Bot",
-            "GitHits",
-            "1DBM"
-        ]
+        "baseURI": "https://api.github.com/repos/franjorub/",
+        "repositories": []
     },
     "experience": {
         "Work Experience": [
