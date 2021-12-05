@@ -4549,10 +4549,10 @@ side-channel@^1.0.4:
     get-intrinsic "^1.0.2"
     object-inspect "^1.9.0"
 
-simple-icons@^4.11.0:
-  version "4.11.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-4.11.0.tgz#1f7fe8dfa337bc34b3c25de44fe0234a53dc9253"
-  integrity sha512-nZbwEnaop+/z5kkMLvmpKPfJTblZNSb1nuP5bv9GX0g1M+C0yDWLRI5XfIP/VE159GsTmxcinCsvSD3EZT1DBA==
+simple-icons@^4.25.0:
+  version "4.25.0"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-4.25.0.tgz#9420fc556f21bd4793718b211ac6d2b1f1069cca"
+  integrity sha512-bnQccBJXKaWECSFKV4jdSDOvJb0om1yNqHf+lSXiE+hTk/R3L1Mz+EfQRgkmVjED2dSZhbZWxGzdC8+cQzSoaA==
 
 slash@^3.0.0:
   version "3.0.0"
