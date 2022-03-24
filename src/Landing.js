@@ -1,11 +1,11 @@
 import { Avatar, Fade, Grid, Hidden, makeStyles, Tooltip, Typography, useMediaQuery, useTheme, Zoom } from "@material-ui/core";
 import ReactTyped from "react-typed";
 import clsx from "clsx";
-import Image from 'next/image'
 import simpleIcons from 'simple-icons'
 import data from '../data.json'
 import { iconify } from "./util";
 import Cancel from "@material-ui/icons/Cancel";
+import CloudflareImage from "./CloudflareImage";
 const { landing } = data
 
 const professionalDetails = landing.professionalDetails.map(({ alt, icon, link }) => {
@@ -89,7 +89,7 @@ export default function Landing() {
             <Hidden mdDown>
                 <Fade in={true} style={{ transitionDelay: '100ms' }}>
                     <Grid item lg={6}>
-                        <Image
+                        <CloudflareImage
                             src="/landing.svg"
                             alt="Landing"
                             width="900.94"

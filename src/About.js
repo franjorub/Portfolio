@@ -2,9 +2,9 @@ import { Grid, makeStyles, Typography, Tooltip, Avatar } from "@material-ui/core
 import data from '../data.json'
 import simpleIcons from 'simple-icons'
 import clsx from "clsx";
-import Image from 'next/image'
 import { iconify } from "./util";
 import Cancel from "@material-ui/icons/Cancel";
+import CloudflareImage from "./CloudflareImage";
 const { about } = data
 
 const dpx = about.social.length*10 - 2
@@ -64,7 +64,7 @@ export default function About() {
             <Grid container direction="column" item xs={12} lg={6} spacing={2} justify="center" alignItems="center">
                 <Grid item xs={12}>
                     <Avatar variant="rounded" className={classes.dp}>
-                        <Image
+                        <CloudflareImage
                             alt="Display Picture"
                             src={about.picture}
                             layout="fill"

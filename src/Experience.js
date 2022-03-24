@@ -1,9 +1,9 @@
 import { Avatar, Card, CardActionArea, CardHeader, Fade, Grid, Hidden, makeStyles, Typography, useMediaQuery, useTheme } from "@material-ui/core";
-import Image from 'next/image'
 import { DateRange, LocationCity } from '@material-ui/icons';
 import data from '../data.json'
 import { useRef } from "react";
 import useAnimate from "./useAnimate";
+import CloudflareImage from "./CloudflareImage";
 const { experience } = data
 
 const useStyles = makeStyles(theme => ({
@@ -74,7 +74,7 @@ export default function Experience() {
                 <Hidden mdDown>
                     <Fade in={animate} style={{ transitionDelay: '250ms' }}>
                         <div>
-                            <Image
+                            <CloudflareImage
                                 alt="Experience"
                                 src="/experience.svg"
                                 width="996.46"
@@ -117,7 +117,7 @@ export default function Experience() {
                                                         <CardHeader
                                                             avatar={
                                                                 <Avatar variant="rounded">
-                                                                    <Image
+                                                                    <CloudflareImage
                                                                         alt={`${organization} logo`}
                                                                         src={thumbnail}
                                                                         layout="fill"

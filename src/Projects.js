@@ -1,7 +1,7 @@
 import { Card, CardActionArea, CardActions, CardContent, CardHeader, Chip, Fade, Grid, Hidden, makeStyles, Typography } from "@material-ui/core";
 import { RepoForkedIcon, RepoIcon, StarIcon } from '@primer/octicons-react';
-import Image from 'next/image'
 import { useRef } from "react";
+import CloudflareImage from "./CloudflareImage";
 import useAnimate from "./useAnimate";
 
 const useStyles = makeStyles(theme => ({
@@ -33,7 +33,7 @@ export default function Projects({ data }) {
                 <Hidden mdDown>
                     <Fade in={animate} style={{ transitionDelay: '250ms' }}>
                         <div>
-                            <Image
+                            <CloudflareImage
                                 alt="Projects"
                                 src="/projects.svg"
                                 width="1144"

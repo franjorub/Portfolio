@@ -1,10 +1,10 @@
 import { Avatar, Fade, Grid, Hidden, makeStyles, Tooltip, Typography, useMediaQuery, useTheme, Zoom } from "@material-ui/core";
 import Cancel from "@material-ui/icons/Cancel";
 import clsx from "clsx";
-import Image from 'next/image'
 import { useRef} from "react";
 import simpleIcons from 'simple-icons'
 import data from '../data.json'
+import CloudflareImage from "./CloudflareImage";
 import useAnimate from "./useAnimate";
 import { iconify } from "./util";
 const { skills } = data
@@ -72,7 +72,7 @@ export default function Skills() {
                 <Hidden mdDown>
                     <Fade in={animate} style={{ transitionDelay: '100ms' }}>
                         <div>
-                            <Image
+                            <CloudflareImage
                                 alt="Skills"
                                 src="/skill.svg"
                                 width="1139"
